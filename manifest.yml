@@ -1,0 +1,5 @@
+---
+applications:
+- name: codebot
+  memory: 256M
+  no-route: true

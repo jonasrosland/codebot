@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '0.10'
+notifications:
+  email: false
+deploy:
+  provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username:
+    secure: "CVeh01K/vk59816SgYPLTQtovh+uUB56eZXvlsCl9TdfmteOPYcRk8l6Bxx/oO9jUjKgtMD119ca4W0M2pziVha/y7m8o1YES3nn9GWwHpomLCGCZ7wMC6zKbEhG2o+SHemluQL1Ps/orxwX0utI+Su+wbzLbDrqPoYjq6iEnFY="
+  password:
+    secure: "n2kTW9YVrAs+mKHzpitzeb3Zm5M1GSDpa1ZB0xGqjqfY0m+grdOnWnBPlBTPLj5PmBWqIV9uN4LAINYCuWHbeEdTInf9t9g6nDRzB0CVzfbwx7oid5cmFOI75yE8bOFpFim7hKv5glzVTMPrhPkOH7zZzje7IqH2U/Jw651ieoQ="
+  organization: emccode
+  space: development
+  on:
+    repo: virtualswede/codebot
+    branch: master
