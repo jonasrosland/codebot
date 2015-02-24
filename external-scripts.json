@@ -15,5 +15,6 @@
   "hubot-soon",
   "hubot-codinglove",
   "hubot-insulter",
-  "hubot-devops-reactions"
+  "hubot-devops-reactions",
+  "hubot-rss-reader"
 ]
